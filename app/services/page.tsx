@@ -141,12 +141,12 @@ export default function ServicesPage() {
                     </motion.div>
                   </div>
 
-                  <div
+                  <motion.div
                     className={`relative h-96 rounded-lg overflow-hidden shadow-xl ${
                       index % 2 === 1 ? "md:col-start-1" : ""
                     }`}
                   >
-                    <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }}>
+                    <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} className="w-full h-full overflow-hidden">
                       <Image
                         src={service.imageUrl || "/servicebpo.jpeg"}
                         alt={service.title}
@@ -154,7 +154,7 @@ export default function ServicesPage() {
                         className="object-cover"
                       />
                     </motion.div>
-                  </div>
+                  </motion.div>
                 </div>
               </ScrollReveal>
             ))}
