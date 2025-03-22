@@ -11,25 +11,25 @@ export default function AboutPage() {
     {
       name: "John Smith",
       position: "CEO & Founder",
-      bio: "With over 20 years of experience in outsourcing and business operations, John leads Auttonotech with a vision for innovation and excellence.",
+      bio: "",
       imageUrl: "/placeholder.svg?height=400&width=400",
     },
     {
       name: "Sarah Johnson",
       position: "COO",
-      bio: "Sarah brings extensive expertise in operations management, driving our service delivery and ensuring the highest standards of quality.",
+      bio: "",
       imageUrl: "/placeholder.svg?height=400&width=400",
     },
     {
       name: "Michael Chen",
       position: "CTO",
-      bio: "Michael oversees our technology infrastructure, ensuring we leverage the latest tools and technologies to deliver exceptional services.",
+      bio: "",
       imageUrl: "/placeholder.svg?height=400&width=400",
     },
     {
       name: "Emily Rodriguez",
       position: "Director of HR",
-      bio: "Emily leads our HR operations, bringing her expertise to both our internal team and our HRO service offerings.",
+      bio: "",
       imageUrl: "/placeholder.svg?height=400&width=400",
     },
   ]

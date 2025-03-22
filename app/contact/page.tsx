@@ -146,7 +146,7 @@ export default function ContactPage() {
               </div>
             </ScrollReveal>
 
-            <ScrollReveal delay={200}>
+            <ScrollReveal>
               <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-xl transition-all duration-300">
                 <h2 className="text-2xl font-bold text-gray-dark mb-6">Send Us a Message</h2>
                 <ContactForm onSubmit={handleSubmit} />

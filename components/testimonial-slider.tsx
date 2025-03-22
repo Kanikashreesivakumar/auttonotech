@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
     position: "CTO",
     company: "TechCorp Inc.",
     content:
-      "Auttonotech has been instrumental in helping us optimize our business processes. Their BPO services have significantly improved our operational efficiency and reduced costs by over 30%.",
+      "",
     avatar: "/placeholder.svg?height=80&width=80",
   },
   {
@@ -30,7 +30,7 @@ const testimonials: Testimonial[] = [
     position: "HR Director",
     company: "Global Enterprises",
     content:
-      "The HRO services provided by Auttonotech have transformed our human resources operations. Their team's expertise and dedication to excellence is unmatched in the industry. We've seen a 40% improvement in recruitment efficiency.",
+      "",
     avatar: "/placeholder.svg?height=80&width=80",
   },
   {
@@ -39,7 +39,7 @@ const testimonials: Testimonial[] = [
     position: "CEO",
     company: "Innovate Solutions",
     content:
-      "We've been working with Auttonotech for our KPO needs, and they've consistently delivered high-quality results. Their analytical capabilities and industry knowledge have been invaluable to our business growth strategy.",
+      "",
     avatar: "/placeholder.svg?height=80&width=80",
   },
 ]
