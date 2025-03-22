@@ -141,9 +141,10 @@ const Footer = () => {
               >
                 <MapPin className="mr-2 h-5 w-5 text-primary flex-shrink-0 mt-1" />
                 <span className="text-gray-300">
-                  123 Business Avenue, Suite 100
-                  <br />
-                  New York, NY 10001
+                Headquartered in Delaware, USA,                 
+                 <br />
+                with a global delivery center in
+                Bangalore, India (Auttonotech Solutions Pvt Ltd)
                 </span>
               </motion.li>
               <motion.li
