@@ -96,7 +96,7 @@ export default function ServicesPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-24">
             {services.map((service, index) => (
-              <ScrollReveal key={index} direction={index % 2 === 0 ? "left" : "right"} delay={0.2}>
+              <ScrollReveal key={index} direction={index % 2 === 0 ? "left" : "right"} delay={0.2} initiallyVisible={index === 0}>
                 <div
                   id={service.id}
                   className={`grid md:grid-cols-2 gap-12 items-center ${index % 2 === 1 ? "md:grid-flow-dense" : ""}`}

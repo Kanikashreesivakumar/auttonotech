@@ -10,6 +10,7 @@ interface ScrollRevealProps {
   duration?: number
   className?: string
   once?: boolean
+  initiallyVisible?: boolean
 }
 
 export default function ScrollReveal({
@@ -19,21 +20,22 @@ export default function ScrollReveal({
   duration = 0.5,
   className = "",
   once = true,
+  initiallyVisible = false,
 }: ScrollRevealProps) {
   const getInitialDirection = () => {
     switch (direction) {
       case "up":
-        return { opacity: 0, y: 50 }
+        return { opacity: initiallyVisible ? 1 : 0, y: 50 }
       case "down":
-        return { opacity: 0, y: -50 }
+        return { opacity: initiallyVisible ? 1 : 0, y: -50 }
       case "left":
-        return { opacity: 0, x: -50 }
+        return { opacity: initiallyVisible ? 1 : 0, x: -50 }
       case "right":
-        return { opacity: 0, x: 50 }
+        return { opacity: initiallyVisible ? 1 : 0, x: 50 }
       case "none":
-        return { opacity: 0 }
+        return { opacity: initiallyVisible ? 1 : 0 }
       default:
-        return { opacity: 0, y: 50 }
+        return { opacity: initiallyVisible ? 1 : 0, y: 50 }
     }
   }
 

@@ -23,7 +23,7 @@ export default function ProjectCard({ title, description, imageUrl, href, catego
       className="project-card"
     >
       <div className="relative h-64 overflow-hidden">
-        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} className="project-image">
+        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.5 }} className="project-image w-full h-full overflow-hidden">
           <Image src={imageUrl || "/placeholder.svg"} alt={title} fill className="object-cover" />
         </motion.div>
         <div className="absolute top-4 left-4 z-10">

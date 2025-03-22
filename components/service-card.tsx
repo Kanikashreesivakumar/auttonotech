@@ -15,7 +15,7 @@ interface ServiceCardProps {
 
 export default function ServiceCard({ title, description, icon: Icon, href, imageUrl }: ServiceCardProps) {
   return (
-    <motion.div whileHover={{ y: -10 }} className="service-card h-full flex flex-col">
+    <motion.div whileHover={{ y: -10 }} className="service-card h-full flex flex-col w-full h-full overflow-hidden">
       {imageUrl && (
         <div className="relative h-48 overflow-hidden">
           <Image
