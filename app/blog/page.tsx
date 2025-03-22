@@ -139,17 +139,22 @@ export default function BlogPage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredPosts.slice(0, visiblePosts).map((post, index) => (
-              <ScrollReveal key={index} delay={(index % 3) * 100}>
-                <BlogCard
-                  title={post.title}
-                  excerpt={post.excerpt}
-                  imageUrl={post.imageUrl}
-                  date={post.date}
-                  author={post.author}
-                  category={post.category}
-                  href={post.href}
-                />
-              </ScrollReveal>
+              <div key={index} className="grid-item" style={{ minHeight: "100%" }}>
+                <ScrollReveal 
+                  
+                  initiallyVisible={true}
+                >
+                  <BlogCard
+                    title={post.title}
+                    excerpt={post.excerpt}
+                    imageUrl={post.imageUrl}
+                    date={post.date}
+                    author={post.author}
+                    category={post.category}
+                    href={post.href}
+                  />
+                </ScrollReveal>
+              </div>
             ))}
           </div>
 
@@ -176,6 +181,7 @@ export default function BlogPage() {
             light
           />
 
+          <div className="max-w-md mx-auto"></div>
           <div className="max-w-md mx-auto">
             <form className="flex flex-col sm:flex-row gap-4">
               <input
