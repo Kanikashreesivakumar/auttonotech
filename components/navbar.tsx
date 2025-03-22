@@ -5,11 +5,12 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import { usePathname } from "next/navigation" // Add this import
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
-  const [activeLink, setActiveLink] = useState("/")
+  const pathname = usePathname() // Use Next.js's pathname hook
 
   useEffect(() => {
     const handleScroll = () => {
@@ -20,19 +21,10 @@ const Navbar = () => {
       }
     }
 
-    const handleRouteChange = () => {
-      setActiveLink(window.location.pathname)
-    }
-
-    // Set initial active link
-    setActiveLink(window.location.pathname)
-
     window.addEventListener("scroll", handleScroll)
-    window.addEventListener("popstate", handleRouteChange)
 
     return () => {
       window.removeEventListener("scroll", handleScroll)
-      window.removeEventListener("popstate", handleRouteChange)
     }
   }, [])
 
@@ -88,11 +80,11 @@ const Navbar = () => {
                   <Link
                     href={link.href}
                     className={`relative text-gray-dark hover:text-primary font-medium transition-colors duration-200 ${
-                      activeLink === link.href ? "text-primary" : ""
+                      pathname === link.href ? "text-primary" : ""
                     }`}
                   >
                     {link.name}
-                    {activeLink === link.href && (
+                    {pathname === link.href && (
                       <motion.div
                         layoutId="activeIndicator"
                         className="absolute -bottom-1 left-0 right-0 h-0.5 bg-primary"
@@ -149,7 +141,7 @@ const Navbar = () => {
                   <Link
                     href={link.href}
                     className={`block px-3 py-2 rounded-md text-base font-medium ${
-                      activeLink === link.href
+                      pathname === link.href
                         ? "text-primary bg-primary/5"
                         : "text-gray-dark hover:text-primary hover:bg-gray-50"
                     }`}

@@ -126,17 +126,17 @@ export default function Home() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1, duration: 1 }}
-          className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-10"
+          className="absolute text-white bottom-10 left-1/2 transform -translate-x-1/2 z-10"
         >
           <motion.div
             animate={{ y: [0, -10, 0] }}
             transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
-            className="w-8 h-12 border-2 border-white rounded-full flex justify-center"
+            className="w-8 h-12 border-2 text-white border-white rounded-full flex justify-center"
           >
             <motion.div
               animate={{ opacity: [0, 1, 0] }}
               transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
-              className="w-1 h-3 bg-white rounded-full mt-2"
+              className="w-1 h-3 bg-white text-white rounded-full mt-2"
             ></motion.div>
           </motion.div>
         </motion.div>
@@ -251,19 +251,19 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="p-6">
               <AnimatedCounter end={500} suffix="+" />
-              <p className="mt-2 text-white/80 font-medium">Clients Served</p>
+              <p className="mt-2 color-white font-medium">Clients Served</p>
             </div>
             <div className="p-6">
               <AnimatedCounter end={15} suffix="+" />
-              <p className="mt-2 text-white/80 font-medium">Years of Experience</p>
+              <p className="mt-2 text-white font-medium">Years of Experience</p>
             </div>
             <div className="p-6">
               <AnimatedCounter end={1000} suffix="+" />
-              <p className="mt-2 text-white/80 font-medium">Projects Completed</p>
+              <p className="mt-2 text-white font-medium">Projects Completed</p>
             </div>
             <div className="p-6">
               <AnimatedCounter end={250} suffix="+" />
-              <p className="mt-2 text-white/80 font-medium">Team Members</p>
+              <p className="mt-2 text-white font-medium">Team Members</p>
             </div>
           </div>
         </div>

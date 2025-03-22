@@ -69,7 +69,7 @@ export default function AnimatedCounter({
       whileInView={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.5 }}
       viewport={{ once: true }}
-      className={`font-bold text-4xl md:text-5xl text-primary ${className}`}
+      className={`font-bold text-4xl md:text-5xl text-white ${className}`}
     >
       {prefix}
       {count.toFixed(decimals).replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
