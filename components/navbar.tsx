@@ -68,7 +68,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-20">
           <motion.div variants={itemVariants} className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <Image src="/Auttono.png?" alt="Auttonotech Logo" width={180} height={50} className="h-10 w-auto" priority />
+              <Image src="/auttono.png?" alt="Auttonotech Logo" width={180} height={50} className="h-10 w-auto" priority />
             </Link>
           </motion.div>
 
