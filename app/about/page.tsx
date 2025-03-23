@@ -12,25 +12,25 @@ export default function AboutPage() {
       name: "John Smith",
       position: "CEO & Founder",
       bio: "",
-      imageUrl: "/placeholder.svg?height=400&width=400",
+      imageUrl: "/photo.svg?height=400&width=400",
     },
     {
       name: "Sarah Johnson",
       position: "COO",
       bio: "",
-      imageUrl: "/placeholder.svg?height=400&width=400",
+      imageUrl: "/photo.svg?height=400&width=400",
     },
     {
       name: "Michael Chen",
       position: "CTO",
       bio: "",
-      imageUrl: "/placeholder.svg?height=400&width=400",
+      imageUrl: "/photo.svg?height=400&width=400",
     },
     {
       name: "Emily Rodriguez",
       position: "Director of HR",
       bio: "",
-      imageUrl: "/placeholder.svg?height=400&width=400",
+      imageUrl: "/photo.svg?height=400&width=400",
     },
   ];
 
@@ -94,7 +94,7 @@ export default function AboutPage() {
                   transition={{ delay: 0.2 }}
                   className="text-gray-600 mb-6"
                 >
-                  Founded in 2008, Auttonotech has grown from a small
+                  Founded in 2021, Auttonotech has grown from a small
                   outsourcing consultancy to a leading provider of comprehensive
                   BPO, KPO, and HRO solutions across multiple industries. Our
                   journey has been defined by a commitment to excellence,
@@ -138,7 +138,7 @@ export default function AboutPage() {
                 >
                   <Image
                     src="/company.jpeg?height=800px&width=800px"
-                    alt="Auttonotech Headquarters"
+                    alt="Auttono tech Headquarters"
                     fill
                     className="object-cover"
                   />

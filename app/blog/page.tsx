@@ -42,7 +42,7 @@ export default function BlogPage() {
       title: "Improving Customer Experience through BPO",
       excerpt:
         "Discover how business process outsourcing can enhance customer experience and drive customer loyalty for your business.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+      imageUrl: "/blogbpo.jpg?height=400&width=600",
       date: "March 5, 2023",
       author: "Emily Rodriguez",
       category: "BPO",
@@ -52,7 +52,7 @@ export default function BlogPage() {
       title: "The Role of AI in Modern KPO Services",
       excerpt:
         "Explore how artificial intelligence is revolutionizing knowledge process outsourcing and creating new opportunities for businesses.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+      imageUrl: "/blogkpo.jpg?height=400&width=600",
       date: "February 18, 2023",
       author: "David Kim",
       category: "KPO",
@@ -62,7 +62,7 @@ export default function BlogPage() {
       title: "Building a Talent Pipeline through HRO",
       excerpt:
         "Learn how human resource outsourcing can help you build a robust talent pipeline and secure the best talent for your organization.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+      imageUrl: "/bloghro.jpg?height=400&width=600",
       date: "January 30, 2023",
       author: "Lisa Wang",
       category: "HRO",
@@ -72,7 +72,7 @@ export default function BlogPage() {
       title: "Cost Optimization Strategies in BPO",
       excerpt:
         "Effective strategies for optimizing costs through business process outsourcing without compromising on quality or performance.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+      imageUrl: "/blogbpo1.jpg?height=400&width=600",
       date: "December 12, 2022",
       author: "Robert Johnson",
       category: "BPO",
@@ -82,7 +82,7 @@ export default function BlogPage() {
       title: "Market Research Excellence through KPO",
       excerpt:
         "How knowledge process outsourcing is transforming market research and delivering deeper insights for strategic decision-making.",
-      imageUrl: "/placeholder.svg?height=400&width=600",
+      imageUrl: "/blogkpo1.jpg?height=400&width=600",
       date: "November 5, 2022",
       author: "Jennifer Lee",
       category: "KPO",

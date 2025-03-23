@@ -250,19 +250,19 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div className="p-6">
-              <AnimatedCounter end={500} suffix="+" />
+              <AnimatedCounter end={200} suffix="+" />
               <p className="mt-2 color-white font-medium">Clients Served</p>
             </div>
             <div className="p-6">
-              <AnimatedCounter end={15} suffix="+" />
+              <AnimatedCounter end={5} suffix="+" />
               <p className="mt-2 text-white font-medium">Years of Experience</p>
             </div>
             <div className="p-6">
-              <AnimatedCounter end={1000} suffix="+" />
+              <AnimatedCounter end={100} suffix="+" />
               <p className="mt-2 text-white font-medium">Projects Completed</p>
             </div>
             <div className="p-6">
-              <AnimatedCounter end={250} suffix="+" />
+              <AnimatedCounter end={100} suffix="+" />
               <p className="mt-2 text-white font-medium">Team Members</p>
             </div>
           </div>

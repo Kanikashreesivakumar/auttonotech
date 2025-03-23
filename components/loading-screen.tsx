@@ -66,7 +66,8 @@ export default function LoadingScreen() {
                 transition={{ repeat: Number.POSITIVE_INFINITY, duration: 2 }}
                 className="gradient-text"
               >
-                Empowering Engineering Excellence...
+               Smart Services, Smarter Solutions...
+               Precision Powered by Passion!!
               </motion.span>
             </motion.h2>
 
