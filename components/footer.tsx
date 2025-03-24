@@ -153,7 +153,7 @@ const Footer = () => {
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Phone className="mr-2 h-5 w-5 text-primary flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-gray-300 hover:text-white transition-colors duration-200">
+                <a href="tel:+91 81230 85846" className="text-gray-300 hover:text-white transition-colors duration-200">
                   +91 81230 85846
                 </a>
               </motion.li>

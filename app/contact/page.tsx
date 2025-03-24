@@ -77,12 +77,12 @@ export default function ContactPage() {
                     <div>
                       <h3 className="text-lg font-bold text-gray-dark mb-1">Call Us</h3>
                       <p className="text-gray-600">
-                        <a href="tel:+1234567890" className="hover:text-primary transition-colors duration-200">
+                        <a href="tel:+91 81230 85846" className="hover:text-primary transition-colors duration-200">
                         +91 81230 85846
                         </a>
                       </p>
                       <p className="text-gray-600">
-                        <a href="tel:+1234567891" className="hover:text-primary transition-colors duration-200">
+                        <a href="tel:+91 81230 85846" className="hover:text-primary transition-colors duration-200">
                         +91 81230 85846
                         </a>
                       </p>
