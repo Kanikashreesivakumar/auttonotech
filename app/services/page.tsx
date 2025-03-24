@@ -54,6 +54,44 @@ export default function ServicesPage() {
         "Training and Development",
       ],
     },
+
+
+    {
+      id: "Mortgage",
+      title: "Mortgage Processing Services",
+      description:
+        " Our Mortgage Processing Services help lenders streamline their loan operations, ensuring accuracy, compliance, and faster turnaround times while we handle the complex administrative tasks of mortgage management.",
+      icon: Users,
+      imageUrl: "/mortgage.jpg?height=600&width=800",
+      features: [
+        " Underwriting Support",
+        "Title & Escrow Management",
+        "Compliance & Regulatory Adherence",
+        " Initial Disclosures & Closing Disclosure Preparation",
+        " Lien & Property Tax Research",
+        " 24/7 Global Delivery Model",
+        "Scalable & Cost-Effective Solutions",
+      ],
+    },
+
+
+    {
+      id: "IT",
+      title: "IT and cloud services",
+      description:
+        " Our IT & Cloud Management Services help businesses strengthen their technology infrastructure, ensuring secure, efficient, and scalable operations while we manage the complexities of IT systems and cloud environments.",
+      icon: Users,
+      imageUrl: "/it.jpg?height=600&width=800",
+      features: [
+        "Remote IT Support",
+        "Application & System Support ",
+        " Network & Server Management",
+        " Cloud Hosting & Management ",
+        "Hardware & Software Management",
+        " Cybersecurity & Compliance",
+        " 24/7 Help Desk Support ",
+      ],
+    },
   ]
 
   return (

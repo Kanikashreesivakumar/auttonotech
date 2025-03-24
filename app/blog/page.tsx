@@ -88,6 +88,52 @@ export default function BlogPage() {
       category: "KPO",
       href: "/blog/market-research-kpo",
     },
+
+    
+      {
+        title: "Streamlining Mortgage Processes with Expert Support",
+        excerpt:
+          "Discover how mortgage process outsourcing enhances efficiency, reduces costs, and ensures compliance in loan origination, underwriting, and closing.",
+        imageUrl: "/blogmortgage1.jpg?height=400&width=600",
+        date: "April 5, 2025",
+        author: "David Smith",
+        category: "Mortgage",
+        href: "/blog/mortgage-process-outsourcing",
+      },
+      {
+        title: "Title & Escrow Services: Securing Real Estate Transactions",
+        excerpt:
+          "Explore the critical role of Title & Escrow services in safeguarding property deals, managing funds, and ensuring smooth loan closures.",
+        imageUrl: "/blogmortgage2.jpg?height=400&width=600",
+        date: "April 6, 2025",
+        author: "Emily Davis",
+        category: "Mortgage",
+        href: "/blog/title-escrow-services",
+      },
+      {
+        title: "Empowering Business Growth with IT & Cloud Solutions",
+        excerpt:
+          "Learn how cloud computing and IT infrastructure support help businesses scale operations, enhance security, and drive digital transformation.",
+        imageUrl: "/blogit1.jpg?height=400&width=600",
+        date: "April 5, 2025",
+        author: "Michael Scott",
+        category: "IT & Cloud",
+        href: "/blog/it-cloud-solutions",
+      },
+      {
+        title: "Cybersecurity & Compliance: Protecting Your Business",
+        excerpt:
+          "Understand why robust cybersecurity and compliance practices are essential in today’s digital world to safeguard data and maintain trust.",
+        imageUrl: "/blogit2.jpg?height=400&width=600",
+        date: "April 6, 2025",
+        author: "Sophia Turner",
+        category: "IT & Cloud",
+        href: "/blog/cybersecurity-compliance",
+      },
+      
+      
+      
+    
   ]
 
   const [visiblePosts, setVisiblePosts] = useState(6)
@@ -110,7 +156,7 @@ export default function BlogPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Blog</h1>
-            <p className="text-xl text-white/90">Insights, trends, and best practices in BPO, KPO, and HRO</p>
+            <p className="text-xl text-white/90">Insights, trends, and best practices in BPO, KPO, HRO , IT and MORTGAGE</p>
           </div>
         </div>
       </section>
@@ -120,7 +166,7 @@ export default function BlogPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center mb-12">
             <div className="flex space-x-2 bg-gray-100 p-1 rounded-lg">
-              {["All", "BPO", "KPO", "HRO"].map((category) => (
+              {["All", "BPO", "KPO", "HRO" ,"Mortgage" ,"IT & Cloud"].map((category) => (
                 <button
                   key={category}
                   onClick={() => {
