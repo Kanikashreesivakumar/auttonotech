@@ -77,18 +77,8 @@ export default function BlogCard({ title, excerpt, imageUrl, href, date, author,
           whileHover={{ x: 5 }}
           className="mt-auto"
         >
-          <Link href={href} className="inline-flex items-center text-primary font-medium hover:underline group">
-            Read More
-            <svg
-              className="ml-2 w-4 h-4 transition-transform duration-300 group-hover:translate-x-1"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </Link>
+         
+          
         </motion.div>
       </div>
     </motion.div>
